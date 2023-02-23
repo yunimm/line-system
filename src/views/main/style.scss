@@ -1,9 +1,18 @@
+@import "../../assets/scss/_variables";
 .el-header {
-  background-color: rgb(29, 54, 87);
+	background-color: $color-main;
+	height: 50px !important;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 1.2rem;
+	color: $color-light;
+	letter-spacing: 1.2px;
+	font-weight: 500;
 }
 .el-aside {
-  background-color: rgb(95, 124, 124);
+	background-color: rgb(95, 124, 124);
 }
 .container {
-  height: calc(100vh - 60px);
+	height: calc(100vh - 50px);
 }
