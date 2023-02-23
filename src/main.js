@@ -1,10 +1,11 @@
 import Vue from 'vue';
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
-import App from './App.vue';
+import App from './views/main/index.vue';
 import router from './router';
 import store from './store';
 import 'reset-css';
+import './assets/scss/core.scss';
 
 Vue.use(ElementUI);
 Vue.config.productionTip = false;
